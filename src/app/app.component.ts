@@ -10,7 +10,7 @@ import { AppService } from './app.service';
 export class AppComponent {
   title = 'setimeor-test';
   message: string;
-  messages: Array<Object> [] = [{}];
+  items: Array<Object> [] = [{}];
 
   constructor(private appService: AppService) { }
   sendMessage() {
@@ -27,10 +27,11 @@ export class AppComponent {
       .getMessages()
       .subscribe((message: string) => {
         console.log(message);
-        this.messages = JSON.parse(message);
+        this.items = JSON.parse(message);
       });
       setInterval(async () => {
         try {
+          console.log(`[ getWeather ]`)
           await this.getWeather()
         }
         catch(e) {

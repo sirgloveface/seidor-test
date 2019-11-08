@@ -1,6 +1,6 @@
 # SeidorTest
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.18.
+ Proyecto de prueba para consultar api rest [developer.forecast](https://developer.forecast.io/)
+ y [darksky.net](https://darksky.net/dev) que son servidores de clima por regiones ubicadas por latitud y longitud
 
 ## Development server
 
