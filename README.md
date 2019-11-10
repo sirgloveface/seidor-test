@@ -1,10 +1,12 @@
 # SeidorTest
  Proyecto de prueba para consultar api rest [developer.forecast](https://developer.forecast.io/)
- y [darksky.net](https://darksky.net/dev) que son servidores de clima por regiones ubicadas por latitud y longitud
+ y [darksky.net](https://darksky.net/dev) que son servidores de clima por regiones ubicadas por latitud y longitud mediando conexion por sockets
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+EL cliente del socker corre en app.service y esta direccionado `http://localhost:3000/`
 
 ## Code scaffolding
 
