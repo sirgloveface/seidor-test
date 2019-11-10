@@ -10,7 +10,7 @@ import { AppService } from './app.service';
 export class AppComponent {
   title = 'setimeor-test';
   message: string;
-  items: Array<Object> [] = [{}];
+  items: [];
 
   constructor(private appService: AppService) { }
   sendMessage() {
